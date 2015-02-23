@@ -32,7 +32,9 @@ public class BodyDriver {
 
 	Body jupiter = new Body(sun, "Jupiter");
 	System.out.println(jupiter.toString());
-	
+
+	Body jmoon = new Body(jupiter, "Io");
+	System.out.println(jmoon.toString());	
 }
 
 }
