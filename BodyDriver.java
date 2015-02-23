@@ -29,6 +29,9 @@ public class BodyDriver {
 	lance.name = "Lance";
 
 	System.out.println(lance.toString());
+
+	Body jupiter = new Body(sun, "Jupiter");
+	System.out.println(jupiter.toString());
 	
 }
 
